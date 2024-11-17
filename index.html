@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B GAMES STUDIO</title>
+    <style>
+        /* Resetting default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a5acd, #3b9ac9); /* Modern gradient background */
+            color: #fff;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header styling */
+        header {
+            display: flex;
+            align-items: center; /* Aligning image and text vertically */
+            justify-content: center;
+            flex-direction: row; /* Horizontal layout for logo and text */
+            margin-bottom: 30px;
+            background-color: #2c3e50; /* Darker blue for header */
+            padding: 20px;
+            border-radius: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Styling for the logo image */
+        header img {
+            width: 60px; /* Adjust logo size */
+            height: auto;
+            margin-right: 15px; /* Space between logo and text */
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #fff;
+        }
+
+        /* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2980b9; /* Bright blue */
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #3498db; /* Lighter blue on hover */
+        }
+
+        /* Main content styling */
+        h3 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #ecf0f1; /* Light gray text */
+        }
+
+        /* Social media links styling */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.7em;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #3498db; /* Light blue on hover */
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #2c3e50; /* Dark blue for footer */
+            color: white;
+            border-radius: 8px;
+        }
+       
+        .image-container {
+            width: 100%;  /* Membuat container responsif */
+            max-width: 600px;  /* Menentukan lebar maksimum container */
+            margin: 0 auto;  /* Membuat container tetap di tengah */
+        }
+
+        /* Styling untuk gambar */
+        .clickable-image {
+            width: 100%;  /* Membuat gambar responsif dan menyesuaikan dengan container */
+            height: auto;  /* Menjaga rasio aspek gambar */
+            cursor: pointer;  /* Menunjukkan gambar bisa diklik */
+            border-radius: 8px;  /* Sudut gambar membulat */
+            transition: transform 0.3s ease;  /* Efek transisi saat gambar dihover */
+        }
+
+        /* Efek hover saat gambar diklik */
+        .clickable-image:hover {
+            transform: scale(1.05);  /* Membesarkan gambar sedikit saat hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Logo and Title -->
+    <header>
+        <img src="img/channels4_profile.jpg" alt="B Games Studio Logo"> <!-- Add your logo here -->
+        <h1>B GAMES STUDIO</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="games.html">Games</a>
+        <a href="update.html">Update</a>
+        <a href="news.html">News</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <h3>Welcome to B GAMES STUDIO</h3>
+    <h4>Thank you for visiting our site. We hope that this site will make it easier for you to explore further information about our games.</h4>
+
+    <div class="image-container">
+        <!-- Gambar yang bisa diklik dan mengarah ke YouTube -->
+        <a href="https://youtu.be/mQ0xEV21cA8?si=d8nmCsy-pv1sa24b" target="_blank">
+            <img src="img/game/poto.jpg" alt="Gambar untuk YouTube" class="clickable-image">
+        </a>
+    </div>
+
+
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="https://youtube.com/@bgs_official21?si=zue3oTR5g50ju9vc">YouTube</a>
+        <a href="https://b-games-studio.itch.io">itch.io</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 B GAMES STUDIO. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
